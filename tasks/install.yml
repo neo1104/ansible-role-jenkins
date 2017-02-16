@@ -3,4 +3,4 @@
   yum:
     name: jenkins
     state: present
-    enablerepo: {{ jenkins_repo }}
+    enablerepo: "{{ jenkins_repo }}"
