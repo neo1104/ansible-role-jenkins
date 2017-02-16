@@ -2,4 +2,4 @@
 - name: start jeninks Server
   service:
     name: jenkins
-    state: present
+    state: started
