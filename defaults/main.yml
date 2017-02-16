@@ -1,0 +1,6 @@
+---
+# defaults file for roles/jenkins
+jenkins_repo: 37dz
+jenkins_port: 8082
+jenkins_user: jenkins
+jenkins_listen_addr: 0.0.0.0

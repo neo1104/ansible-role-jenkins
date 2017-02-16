@@ -1,0 +1,9 @@
+---
+- name: set jenkins environment variable
+  template:
+    src: jenkins.j2
+    dest: /etc/sysconfig/jenkins
+    owner: root
+    mode: 0600
+  notify:
+    - restart jenkins server

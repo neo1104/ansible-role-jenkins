@@ -1,0 +1,6 @@
+---
+- name: install jenkins
+  yum:
+    name: jenkins
+    state: present
+    enablerepo: {{ jenkins_repo }}
